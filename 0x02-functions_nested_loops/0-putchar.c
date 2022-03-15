@@ -1,12 +1,12 @@
 #include "stdio.h"
 /**
-* main - prints _putchar on a new line
+* main - prints _putchar with a new line
 *
-* return: Always 0 (success)
+* return: Always 0
 *
 */
 
-int  main(void)
+int main(void)
 {
 	int i;
 	char p[] = "_putchar";
