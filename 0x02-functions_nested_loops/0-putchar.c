@@ -1,4 +1,4 @@
-#include <stdio.h>                                                                                                                                                      
+#include <main.h>                                                                                                                                                      
 /**                                                                                                                                                                     
 * main - Prints _Putchar with a new line                                                                                                                                
 *                                                                                                                                                                       
@@ -11,7 +11,7 @@ int main(void)
         int i; 
 	char p[] = "_putchar";
 
-		for(i=o; i < 9 ; i++)
+		for(i=0; i < 9 ; i++)
 		{
 			putchar(p[i]);
 		}
