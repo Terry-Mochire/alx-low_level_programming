@@ -8,7 +8,8 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-    unsigned int i, j, k, l, m, n;
+    unsigned int i, j, k, l, m;
+    int n;
 
     if (array == NULL)
         return (-1);
